@@ -1,0 +1,10 @@
+﻿@model Modal.Postagem
+@{
+    ViewBag.Title = "Visualizar";
+}
+<a href="@Url.Action("Index")">< voltar</a><br />
+<h2>@Model.Titulo</h2>
+Autor:<strong>@Model.Autor.Nome</strong><br />
+criado em: @Model.CriadoEm.ToLocalTime().ToString("dd/MM/yyyy HH:mm")<br />
+<br />
+@Html.Raw(Model.Conteudo.Replace(Environment.NewLine, "<BR>"))

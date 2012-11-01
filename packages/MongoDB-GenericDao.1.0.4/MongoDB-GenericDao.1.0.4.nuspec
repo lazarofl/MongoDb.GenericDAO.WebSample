@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MongoDB-GenericDao</id>
+    <version>1.0.4</version>
+    <title>MongoDB-GenericDao</title>
+    <authors>lazaro.fernandes</authors>
+    <owners>lazaro.fernandes</owners>
+    <projectUrl>https://github.com/lazarofl/MongoDB-GenericDao</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MongoDB GenericDao to manage MongoCollections with Linq support</description>
+    <summary>MongoDB GenericDao to manage MongoCollections with Linq support</summary>
+    <language>en-US</language>
+    <tags>mongodb genericdao</tags>
+  </metadata>
+</package>
